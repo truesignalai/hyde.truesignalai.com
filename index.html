@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hyde Action | TrueSignal Support Initiative</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f9fa;
+      margin: 0;
+      padding: 0;
+      color: #212529;
+    }
+    header {
+      background: #111827;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+      border-bottom: 2px solid #dee2e6;
+      padding-bottom: 0.3rem;
+    }
+    form {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    label {
+      display: block;
+      margin: 0.8rem 0 0.2rem;
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.6rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    button {
+      background: #0d6efd;
+      color: white;
+      padding: 0.7rem 1.4rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .disclaimer {
+      font-size: 0.85rem;
+      color: #555;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hyde Action</h1>
+    <p>A civic initiative supported by TrueSignal Intelligence</p>
+  </header>
+  <main>
+    <section>
+      <h2>About the Project</h2>
+      <p>This independent initiative aims to collect and analyze evidence regarding service charges, repairs, and resident experiences with Hyde Housing. The project is hosted by TrueSignal but operates independently in public interest.</p>
+    </section>
+
+    <section>
+      <h2>Submit Your Case</h2>
+      <form>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="issue">Describe Your Experience</label>
+        <textarea id="issue" name="issue" rows="5" required></textarea>
+
+        <button type="submit">Send Report</button>
+      </form>
+      <p class="disclaimer">By submitting, you agree that your report may be used as anonymized evidence in public interest investigations.</p>
+    </section>
+
+    <section>
+      <h2>Current Letter</h2>
+      <p>To read the formal letter sent by residents, <a href="#" onclick="alert('Coming soon – embedded PDF or HTML letter'); return false;">click here</a>.</p>
+    </section>
+  </main>
+</body>
+</html>
